@@ -10,6 +10,7 @@
 			<div class="heading">
 				<h1> a2r2em.com </h1>
 				<p>Developers at your service;</p>
+
 			<!-- Website's purpose, audience and goal-->
 			</div>
 			<div class="Introduction">
@@ -57,7 +58,6 @@
 						<li>Smartphones with Android Operative System versions 2.3 to 6.0</li>
 						<li>Iphones with iOS Operative System versions 2.0 to 8.0</li>
 					</ul>
-
 			</div>
 		</body>
 
