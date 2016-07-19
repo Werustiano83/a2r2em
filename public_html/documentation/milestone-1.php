@@ -79,6 +79,7 @@
 				option it would be to get them access to library cards and they will be using the library desktops. For our
 				purposes we need to take a universal approach with regards to the technology that will be used to access our
 				product. Such technologyes include but are not limited to:</p>
+			<!-- technology that will be used-->
 			<ul>
 				<li>Library desktops ranging from Windows Vista to Windows 10</li>
 				<li>Library Macintosh with Mac OS X versions 10.6 (Snow Leopard) to 10.11 (El Capitan)</li>
