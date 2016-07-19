@@ -9,7 +9,7 @@
 	<body>
 		<div class="heading">
 			<h1> a2r2em.com </h1>
-			<p>Developers at the world's service;</p>
+			<p>Developers at everybody's service;</p>
 
 			<!-- Website's purpose, audience and goal-->
 		</div>
