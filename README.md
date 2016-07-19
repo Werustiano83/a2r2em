@@ -6,6 +6,9 @@ Excellent work. I see that a key point that sets you apart is your focus on valu
 
 As of now, your Milestone 1 passes at [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Make the corrections listed below and add some additional detail to your Use Case by the due date and I'll bump the grade to [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
 
+#### Update 07/19/16
+Your PWP Milestone 1 passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). Nice work. We will cover Milestone 2 UX Design material on Wednesday or Thursday this week.
+
 ### Edits &amp; Suggestions
 - Remember to commit early and often. I noticed the source code on your deployment and the code in your last GitHub commit is very slightly different. Are all your latest changes committed and pushed? 
 - In your .gitignore: DS_Store is missing the preceding "."
