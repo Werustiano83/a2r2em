@@ -13,7 +13,7 @@
 
 		<div class="Sitemap">
 			<h2> Sitemap </h2>
-			<img src="images\A2R2EMSiteMapping.png" width="600">
+			 <img src="../images/A2R2EMSiteMapping.png" alt="Site Map" width="600">
 
 			<h2> Content Strategy </h2>
 			<h3> Home Page </h3>
@@ -29,7 +29,7 @@
 			<p>This will be the part where we'll share news about the company or other topics related to the technological
 				field, along with our perpectives about such.</p>
 			<h3> Contact</h3>
-			<p> In this part client will be able to cantact us through a friendly contact form that we will provide for
+			<p> In this part client will be able to contact us through a friendly contact form that we will provide for
 				them.</p>
 
 			<h2>Wireframe</h2>
