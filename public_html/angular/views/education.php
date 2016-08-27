@@ -7,14 +7,14 @@
 		<img src="../../images/background.jpg" alt="background" class="img-thumbnail pull-left">
 	</div>
 	<div class="col-sm-6">
-		<p>The concept is as old as human race... parents taking care of their children. The only thing we added to it is the use of technology. We use three main resources for families to learn anything ty want.</p>
-		<p>We also believe in expandig web education. Working with families that want to learn web development is part of the work we do. Parents and their kids, no matter the edge are getting trained in computer programming through our program Parents College. To learn more, click on our education button in the top menu.</p>
+		<p>The concept is as old as the human race... parents taking care of their children. The only thing we added to it is the use of technology. We use three main resources for families to learn anything ty want.</p>
+		
 	</div>
 	<div class="container-fluid text-center">
 		<div class="row">
 			<div class="col-sm-3">
 				<img class="img-responsive img-circle" src="../../images/background.jpg"/>
-				<p>Khan Academy currently is the largest University on the planet. Through their very friendly video tutorials and amazing features, learning has become a child's play. Nevertheless, our adult participants enjoy using it a lot too. When adulst and kids are using Khan Academy together the knowledge is in the air...</p>
+				<p>Khan Academy currently is the largest University on the planet. Through their very friendly video tutorials and amazing features this website has helped millions of people and learning has become a child's play. Additionally, our adult participants enjoy using it a lot too. When adulst and kids are using Khan Academy together the knowledge is in the air...</p>
 			</div>
 			<div class="col-sm-3">
 				<img class="img-responsive img-circle" src="../../images/background.jpg"/>
