@@ -1,0 +1,133 @@
+/******************************************
+* Angular Template Provided by
+* @author rlewis37@cnm.edu
+*******************************************/
+
+/***
+* Flexbox Sticky Footer
+* http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
+***/
+
+/*corrects IE min-height bug*/
+html { display: flex;}
+body { width: 100%;}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
+}
+
+/******************************************
+* Global Styles
+*******************************************/
+html {
+	background: url("../images/background.jpg") no-repeat center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+body {
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+}
+
+.jumbotron {
+	background: transparent;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active,
+button,
+button:link,
+button:visited,
+button:hover,
+button:active {
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
+
+h1, .h1 {
+	font-family: 'Abril Fatface', "Times New Roman", Times, Serif;
+}
+
+h2, .h2 {
+	font-family: 'Abril Fatface', "Times New Roman", Times, Serif;
+	letter-spacing: 1px;
+	margin-bottom: 2.5rem;
+	color: #FFEF42;
+	font-style: italic;
+	text-shadow: 1px 1px 0 #000;
+	font-size: 3.8rem;
+}
+/******************************************
+* Header & Navbar Styles
+*******************************************/
+header {
+	background-color: transparent;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-brand {
+	font-family: 'Abril Fatface', "Times New Roman", Times, Serif;
+	font-size: 2.8rem;
+	letter-spacing: 1px;
+}
+
+.navbar-inverse {
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+.navbar-inverse .navbar-nav>li>a,
+.navbar-inverse .navbar-brand {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-brand:hover {
+	color: gold;
+}
+
+.navbar-inverse .navbar-collapse {
+	border-color: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+/******************************************
+* Content Styles
+*******************************************/
+main {
+	padding: 5rem 0;
+}
+
+/******************************************
+* Footer Styles
+*******************************************/
+footer {
+	color: #333;
+	padding: 1rem 0;
+	background: black;
+}
+
+.well h2 {
+	margin-top: 10px;
+}
