@@ -1,0 +1,1 @@
+var app = angular.module("MypwpApp", ["ngRoute", "ui.bootstrap", "ngMessages", "ngAnimate"]);
