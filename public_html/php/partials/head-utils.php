@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="MeowApp" lang="en">
+<html ng-app="MypwpApp" lang="en">
 	<head>
 		<!-- The 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<meta charset="utf-8"/>
