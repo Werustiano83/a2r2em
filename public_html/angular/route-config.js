@@ -4,32 +4,32 @@ app.config(function($routeProvider, $locationProvider) {
 
 	// route for the home page
 		.when('/', {
-			controller  : 'homeController',
-			templateUrl : 'angular/views/home.php'
+			controller: 'homeController',
+			templateUrl: 'angular/views/home.php'
 		})
 
 		// route for the about page
 		.when('/about', {
-			controller  : 'aboutController',
-			templateUrl : 'angular/views/about.php'
+			controller: 'aboutController',
+			templateUrl: 'angular/views/about.php'
 		})
 
 		// route for the contact page
 		.when('/contact', {
-			controller  : 'contactController',
-			templateUrl : 'angular/views/contact.php'
+			controller: 'contactController',
+			templateUrl: 'angular/views/contact.php'
 		})
 
 		// route for the education page
 		.when('/education', {
-			controller  : 'educationController',
-			templateUrl : 'angular/views/education.php'
+			controller: 'educationController',
+			templateUrl: 'angular/views/education.php'
 		})
 
 		// route for the solutions page
 		.when('/solutions', {
-			controller  : 'solutionsController',
-			templateUrl : 'angular/views/solutions.php'
+			controller: 'solutionsController',
+			templateUrl: 'angular/views/solutions.php'
 		})
 
 		// otherwise redirect to home

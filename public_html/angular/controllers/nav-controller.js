@@ -6,7 +6,7 @@ app.directive("bootstrapBreakpoint", ["$window", function($window) {
 		md: "<div id=\"bootstrap-breakpoint-md\" class=\"device-md visible-md visible-md-block\"></div>",
 		lg: "<div id=\"bootstrap-breakpoint-lg\" class=\"device-lg visible-lg visible-lg-block\"></div>"
 	};
-	return({
+	return ({
 		// detect breakpoints based on visibility
 		link: function postLink(scope) {
 			scope.detectBreakpoint = function() {
