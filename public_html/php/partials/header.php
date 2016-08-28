@@ -26,7 +26,6 @@
 					<li><a href="solutions">Solutions</a></li>
 					<li><a href="education">Education</a></li>
 					<li><a href="contact">Contact</a></li>
-					<li><a href="https://github.com/rlewis2892/meow-app" target="_blank">GitHub</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container-fluid -->

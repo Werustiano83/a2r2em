@@ -19,7 +19,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 
 		<!-- Our Custom CSS -->
-		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<link rel="stylesheet" href="/public_html/css/style.css" type="text/css">
 
 		<!--Angular JS Libraries-->
 		<?php $ANGULAR_VERSION = "1.5.8";?>
