@@ -4,7 +4,7 @@
 
 <div class="row">
 	<div class="col-sm-6">
-		<img src="../../images/thunder.jpg" width="800" alt="background" class="img-thumbnail pull-left">
+		<img src="../../images/background1.jpg" width=100% alt="background" class="img-thumbnail pull-left">
 	</div>
 	<div class="col-sm-6">
 		<p>The concept is as old as the human race... parents taking care of their children. The only thing we added to it is the use of technology. We use three main resources for families to learn anything ty want.</p>
