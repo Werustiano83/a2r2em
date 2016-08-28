@@ -1,4 +1,3 @@
-<!--begin header-->
 <header ng-controller="navController">
 
 	<!-- bootstrap breakpoint directive to control collapse behavior -->

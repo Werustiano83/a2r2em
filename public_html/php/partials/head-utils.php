@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="MypwpApp" lang="en">
+<html lang="en" ng-app="MypwpApp">
 	<head>
 		<!-- The 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<meta charset="utf-8"/>
@@ -32,12 +32,12 @@
 		<!--Load our angular files-->
 		<script src="angular/mypwp-app.js"></script>
 		<script src="angular/route-config.js"></script>
-		<script src="angular/directives/bootstrap-directive.js"></script>
+		<script src="angular/directives/bootstrap-breakpoint.js"></script>
+		<script src="angular/controllers/home-controller.js"></script>
 		<script src="angular/controllers/nav-controller.js"></script>
 		<script src="angular/controllers/about-controller.js"></script>
 		<script src="angular/controllers/contact-controller.js"></script>
 		<script src="angular/controllers/education-controller.js"></script>
-		<script src="angular/controllers/home-controller.js"></script>
 		<script src="angular/controllers/solutions-controller.js"></script>
 
 		<title>wev-a-tion</title>
