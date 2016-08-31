@@ -1,9 +1,9 @@
-<?php require_once("public_html/php/partials/head-utils.php");?>
+<?php require_once("/php/partials/head-utils.php");?>
 <body class="sfooter">
 	<div class="sfooter-content">
 
 		<!--begin header-->
-		<?php require_once("public_html/php/partials/header.php") ?>
+		<?php require_once("/php/partials/header.php") ?>
 
 		<!--begin main content -->
 		<main>
@@ -15,7 +15,7 @@
 		</main>
 	</div>
 	<!--begin footer-->
-	<?php require_once("public_html/php/partials/footer.php");?>
+	<?php require_once("/php/partials/footer.php");?>
 </body>
 
 // modification in the contact form, the swiftmailer mailer file
