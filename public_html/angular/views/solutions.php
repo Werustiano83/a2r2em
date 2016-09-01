@@ -13,11 +13,11 @@
 	<div class="container-fluid text-center">
 		<div class="row">
 			<div class="col-sm-3">
-				<img class="img-responsive img-circle" src="../../images/background.jpg"/>
+				<img class="img-responsive img-circle" src="/public_html/images/background.jpg"/>
 				<p>Roots-n-table is a virtual farmers market. In collaboration with other developers we built a communication tool that helps farmers and growers get in touch with their neighbors and sell their products in their communities. Roots-n-table also allows everybody to purchase products grown and made by local people.</p>
 			</div>
 			<div class="col-sm-3">
-				<img class="img-responsive img-circle" src="../../images/background.jpg"/>
+				<img class="img-responsive img-circle" src="/public_html/images/background.jpg"/>
 				<p>Your website could be in this spot. Fill in our contact form and let us know what your project is about.</p>
 			</div>
 

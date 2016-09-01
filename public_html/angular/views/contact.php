@@ -1,91 +1,61 @@
-	<head>
-		<title>Contact Us</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-		<link href='../../css/style.css' rel='stylesheet' type='text/css'>
-	</head>
-	<body>
+<div class="container-fluid">
+	<h3>Contact Us!</h3>
+	<p> No project is too small to make a positive impact in the world or too big to be accomplished!! Have a conversation with us!!</p>
 
-		<div class="container">
+</div>
 
-			<div class="row">
+<form name="contactForm" id="contactForm" class="form-horizontal well" ng-controller="ContactFormController" ng-submit="submit(formData, contactForm.$valid);" novalidate>
+	<div class="container-fluid">
 
-				<div class="col-lg-8 col-lg-offset-2">
-
-					<h1>Get in touch</h1>
-
-					<p class="lead">No matter how small or big you think your website or software project is. We can help you and you can help us spread our education mission.</p>
-
-
-					<form id="contact-form" method="post" action="contact.php" role="form">
-
-							<div class="messages"></div>
-
-							<div class="controls">
-
-								<div class="row">
-									<div class="col-md-6">
-										<div class="form-group">
-											<label for="form_name">Firstname *</label>
-											<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<label for="form_lastname">Lastname *</label>
-											<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-6">
-										<div class="form-group">
-											<label for="form_email">Email *</label>
-											<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<label for="form_phone">Phone</label>
-											<input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<div class="form-group">
-											<label for="form_message">Message *</label>
-											<textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-									<div class="col-md-12">
-										<input type="submit" class="btn btn-success btn-send" value="Send message">
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<p class="text-muted"><strong>*</strong> These fields are required.</p>
-									</div>
-								</div>
-							</div>
-
-						
-					</form>
-
+		<div class="form-group">
+			<label for="name">Name</label>
+			<div class="input-group">
+				<div class="input-group-addon">
+					<i aria-hidden="true" class="fa fa-user"></i>
 				</div>
-
+				<input class="form-control ng-untouched ng-pristine ng-invalid" id="name" name="name" ng-reflect-name="name"
+						 type="text">
 			</div>
-
+			<div class="alert alert-danger" ng-reflect-hidden="true" hidden="">
+				Name is required
+			</div>
 		</div>
-<!--
-		<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
--->
-	</body>
+		<div class="form-group">
+			<label for="email">Email</label>
+			<div class="input-group">
+				<div class="input-group-addon">
+					<i aria-hidden="true" class="fa fa-envelope"></i>
+				</div>
+				<input class="form-control ng-untouched ng-pristine ng-invalid" id="email" name="email" required=""
+						 ng-reflect-model="" ng-reflect-name="email" type="email">
+			</div>
+			<div class="alert alert-danger" ng-reflect-hidden="true" hidden="">
+				Email is required
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="subject">Subject</label>
+			<div class="input-group">
+				<div class="input-group-addon">
+					<i aria-hidden="true" class="fa fa-pencil"></i>
+				</div>
+				<input class="form-control ng-untouched ng-pristine ng-invalid" id="subject" name="subject" required=""
+						 ng-reflect-model="" ng-reflect-name="subject" type="text">
+			</div>
+			<div class="alert alert-danger" ng-reflect-hidden="true" hidden="">
+				Subject is required
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="message">Message</label>
+			<textarea class="form-control ng-untouched ng-pristine ng-valid" cols="30" id="message" name="message" rows="10"
+						 ng-reflect-model="" ng-reflect-name="message"></textarea>
+		</div>
+		<div class="form-group">
+			<button class="btn btn-lg btn-primary" type="submit"   > Send</button>
+			<button class="btn btn-lg btn-default" type="reset">Clear</button>
+		</div>
+
+
+	</div>
+</form>
