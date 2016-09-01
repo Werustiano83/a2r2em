@@ -4,7 +4,7 @@
 
 </div>
 
-<form name="contactForm" id="contactForm" class="form-horizontal well" ng-controller="ContactFormController" ng-submit="submit(formData, contactForm.$valid);" novalidate>
+<form name="contactForm" id="contactForm" class="form-horizontal" ng-controller="ContactFormController" ng-submit="submit(formData, contactForm.$valid);" novalidate>
 	<div class="container-fluid">
 
 		<div class="form-group">
