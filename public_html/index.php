@@ -18,8 +18,6 @@
 	<?php require_once("php/partials/footer.php");?>
 </body>
 
-// modification in the contact form, the swiftmailer mailer file
-won't require form data validate for jquery
 
 angular form validation
  
