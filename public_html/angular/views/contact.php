@@ -3,7 +3,7 @@
 	<p> No project is too small to make a positive impact in the world or too big to be accomplished!! Have a conversation with us!!</p>
 
 </div>
-
+<div class="col-md-8 col-md-offset-2">
 <form name="contactForm" id="contactForm" class="form-horizontal" ng-controller="ContactFormController" ng-submit="submit(formData, contactForm.$valid);" novalidate>
 	<div class="container-fluid">
 
@@ -28,7 +28,6 @@
 				</div>
 				<input class="form-control ng-untouched ng-pristine ng-invalid" id="email" name="email" required=""
 						 ng-reflect-model="" ng-reflect-name="email" type="email">
-			</div>
 			<div class="alert alert-danger" ng-reflect-hidden="true" hidden="">
 				Email is required
 			</div>
@@ -55,7 +54,7 @@
 			<button class="btn btn-lg btn-primary" type="submit"   > Send</button>
 			<button class="btn btn-lg btn-default" type="reset">Clear</button>
 		</div>
-
-
 	</div>
+</div>
+</div>
 </form>
