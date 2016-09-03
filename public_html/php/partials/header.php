@@ -13,7 +13,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index"><img src="images/wevlogotrans.png" width="75"></a>
+				<a class="navbar-brand" href="index"><img src="images/wevlogotrans2.png" width="75"></a>
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
