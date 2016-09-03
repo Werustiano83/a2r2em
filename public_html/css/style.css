@@ -119,6 +119,9 @@ main {
 	padding: 5rem 0;
 }
 
+.container-fluid{
+	background-color: transparent;
+}
 /******************************************
 * Footer Styles
 *******************************************/
