@@ -6,10 +6,10 @@
 
 </div>
 <div class="col-md-8 col-md-offset-2">
-	<form name="contactForm" id="contactForm" class="form-horizontal" action="php/mailer.php" ng-controller="ContactFormController"
+	<form name="contactForm" id="contactForm" class="form-horizontal" ng-controller="ContactFormController"
 			ng-submit="submit(formData, contactForm.$valid);" novalidate>
-		<div class="container-fluid">
 
+		<div class="container-fluid">
 			<div class="form-group">
 				<label for="name">Name</label>
 				<div class="input-group">
@@ -52,17 +52,23 @@
 				</div>
 				<div class="form-group">
 					<label for="message">Message</label>
-			<textarea class="form-control ng-untouched ng-pristine ng-valid" cols="30" id="message" name="message"
-						 rows="10"
-						 ng-reflect-model="" ng-reflect-name="message"></textarea>
+					<textarea class="form-control ng-untouched ng-pristine ng-valid" cols="30" id="message" name="message"
+								 rows="10" ng-reflect-model="" ng-reflect-name="message"></textarea>
 				</div>
 				<div class="form-group">
 
 					<!--this is for spam prevention google recaptcha key-->
 					<div class="g-recaptcha" data-sitekey="6LfgoykTAAAAAOAw8bjRU5E-xwNR-GK1H5E4vHWQ"></div>
-					
+
 					<button class="btn btn-lg btn-primary" type="submit"> Send</button>
 					<button class="btn btn-lg btn-default" type="reset">Clear</button>
+				</div>
+
+				<!--empty area for form error/success output-->
+				<div class="row">
+					<div class="col-xs-12">
+						<div id="output-area"></div>
+					</div>
 				</div>
 			</div>
 		</div>
