@@ -41,4 +41,5 @@
 		<script src="angular/controllers/solutions-controller.js"></script>
 
 		<title>wev-a-tion</title>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
 	</head>

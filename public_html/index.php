@@ -19,9 +19,9 @@
 </body>
 
 
-angular form validation
+<!--angular form validation
  
 PHP mailer needs to change
 
 @davidmancini github look for the mailer
-install google recaptcha on try blockand swiftmailer
+install google recaptcha on try blockand swiftmailer-->
