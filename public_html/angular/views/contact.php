@@ -6,7 +6,7 @@
 
 </div>
 <div class="col-md-8 col-md-offset-2">
-	<form name="contactForm" id="contactForm" class="form-horizontal" ng-controller="ContactFormController"
+	<form name="contactForm" id="contactForm" class="form-horizontal" action="php/mailer.php" ng-controller="ContactFormController"
 			ng-submit="submit(formData, contactForm.$valid);" novalidate>
 		<div class="container-fluid">
 
