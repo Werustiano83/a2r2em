@@ -9,6 +9,9 @@
 		<!-- set base for relative links - to enable pretty URLs -->
 		<base href="<?php echo dirname($_SERVER["PHP_SELF"]) . "/";?>">
 
+		<!--inserting google recaptcha for spam prevention-->
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+		
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -41,5 +44,5 @@
 		<script src="angular/controllers/solutions-controller.js"></script>
 
 		<title>wev-a-tion</title>
-		<script src='https://www.google.com/recaptcha/api.js'></script>
+		
 	</head>

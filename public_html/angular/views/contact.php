@@ -57,13 +57,16 @@
 						 ng-reflect-model="" ng-reflect-name="message"></textarea>
 				</div>
 				<div class="form-group">
+
+					<!--this is for spam prevention google recaptcha key-->
+					<div class="g-recaptcha" data-sitekey="6LfgoykTAAAAAOAw8bjRU5E-xwNR-GK1H5E4vHWQ"></div>
+					
 					<button class="btn btn-lg btn-primary" type="submit"> Send</button>
 					<button class="btn btn-lg btn-default" type="reset">Clear</button>
 				</div>
 			</div>
 		</div>
 </div>
-<div class="g-recaptcha" data-sitekey="6LfgoykTAAAAAOAw8bjRU5E-xwNR-GK1H5E4vHWQ"></div>
 </form>
 <!--Site Key
 6LfgoykTAAAAAOAw8bjRU5E-xwNR-GK1H5E4vHWQ
