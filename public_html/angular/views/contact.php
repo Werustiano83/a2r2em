@@ -68,7 +68,3 @@
 		</div>
 </div>
 </form>
-<!--Site Key
-6LfgoykTAAAAAOAw8bjRU5E-xwNR-GK1H5E4vHWQ
-Secret Key
-6LfgoykTAAAAANxNMAc7JacTtzQFtZgWT0SntIG6-->
