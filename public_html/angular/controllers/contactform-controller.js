@@ -31,12 +31,12 @@ app.controller("ContactFormController", ["$scope", function($scope) {
 		if(validated === true) {
 			$scope.alerts[0] = {
 				type: "success",
-				msg: "Thank you! We'll get back to you shortly"
+				msg: "Thank you! We'll contact you ASAP"
 			};
 		} else {
 			$scope.alerts[0] = {
 				type: "danger",
-				msg: "Uh-oh, you tried clicking submit with invalid data!"
+				msg: "Make sure you enter information before clicking submit!"
 			};
 		}
 		$scope.reset();
