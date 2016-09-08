@@ -18,11 +18,3 @@
 	<!--begin footer-->
 	<?php require_once("php/partials/footer.php");?>
 </body>
-
-
-<!--angular form validation
- 
-PHP mailer needs to change
-
-@davidmancini github look for the mailer
-install google recaptcha on try blockand swiftmailer-->

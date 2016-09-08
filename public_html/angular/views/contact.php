@@ -4,12 +4,9 @@
 	<p> No project is too small to make a positive impact in the world or too big to be accomplished!! Have a
 		conversation with us!!</p>
 
-</div>
-<div class="col-md-8 col-md-offset-2">
-	<form name="contactForm" id="contactForm" class="form-horizontal" ng-controller="ContactFormController"
-			ng-submit="submit(formData, contactForm.$valid);" novalidate>
-
-		<div class="container-fluid">
+	<div class="col-md-8 col-md-offset-2">
+		<form action="php/mailer.php" name="contactForm" id="contactForm" class="form-horizontal" ng-controller="ContactFormController"
+				ng-submit="submit(formData, contactForm.$valid);" novalidate>
 			<div class="form-group">
 				<label for="name">Name</label>
 				<div class="input-group">
@@ -36,41 +33,41 @@
 						Email is required
 					</div>
 				</div>
-				<div class="form-group">
-					<label for="subject">Subject</label>
-					<div class="input-group">
-						<div class="input-group-addon">
-							<i aria-hidden="true" class="fa fa-pencil"></i>
-						</div>
-						<input class="form-control ng-untouched ng-pristine ng-invalid" id="subject" name="subject"
-								 required=""
-								 ng-reflect-model="" ng-reflect-name="subject" type="text">
+			</div>
+			<div class="form-group">
+				<label for="subject">Subject</label>
+				<div class="input-group">
+					<div class="input-group-addon">
+						<i aria-hidden="true" class="fa fa-pencil"></i>
 					</div>
-					<div class="alert alert-danger" ng-reflect-hidden="true" hidden="">
-						Subject is required
-					</div>
+					<input class="form-control ng-untouched ng-pristine ng-invalid" id="subject" name="subject"
+							 required=""
+							 ng-reflect-model="" ng-reflect-name="subject" type="text">
 				</div>
-				<div class="form-group">
-					<label for="message">Message</label>
-					<textarea class="form-control ng-untouched ng-pristine ng-valid" cols="30" id="message" name="message"
-								 rows="10" ng-reflect-model="" ng-reflect-name="message"></textarea>
-				</div>
-				<div class="form-group">
-
-					<!--this is for spam prevention google recaptcha key-->
-					<div class="g-recaptcha" data-sitekey="6LfgoykTAAAAAOAw8bjRU5E-xwNR-GK1H5E4vHWQ"></div>
-
-					<button class="btn btn-lg btn-primary" type="submit"> Send</button>
-					<button class="btn btn-lg btn-default" type="reset">Clear</button>
-				</div>
-
-				<!--empty area for form error/success output-->
-				<div class="row">
-					<div class="col-xs-12">
-						<div id="output-area"></div>
-					</div>
+				<div class="alert alert-danger" ng-reflect-hidden="true" hidden="">
+					Subject is required
 				</div>
 			</div>
+			<div class="form-group">
+				<label for="message">Message</label>
+					<textarea class="form-control ng-untouched ng-pristine ng-valid" cols="30" id="message" name="message"
+								 rows="10" ng-reflect-model="" ng-reflect-name="message"></textarea>
+			</div>
+
+			<!--this is for spam prevention google recaptcha key-->
+			<div class="g-recaptcha" data-sitekey="6LfgoykTAAAAAOAw8bjRU5E-xwNR-GK1H5E4vHWQ"></div>
+
+			<button class="btn btn-lg btn-primary" type="submit"> Send</button>
+			<button class="btn btn-lg btn-default" type="reset">Clear</button>
+
+		</form>
+
+		<!--empty area for form error/success output-->
+		<div class="row">
+			<div class="col-xs-12">
+				<div id="output-area"></div>
+			</div>
 		</div>
+	</div>
 </div>
-</form>
+

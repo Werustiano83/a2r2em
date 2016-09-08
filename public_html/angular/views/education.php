@@ -2,7 +2,7 @@
 
 <div class="row">
 	<div class="col-sm-12">
-		<p>The concept is as old as the human race... parents taking care of their children. The only thing we added to it is the use of technology. We use three main resources for families to learn anything they want.</p>
+		<p>The concept is as old as the human race... parents taking care of their children. The only thing we added to it, is the use of technology. We use three main resources for families to learn ANYTHING they want.</p>
 		
 	</div>
 	<div class="container-fluid text-center">

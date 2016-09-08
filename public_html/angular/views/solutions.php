@@ -1,7 +1,7 @@
 <h1>Solutions</h1>
 
 <div class="row">
-		<p>We want our work to have a positive impact in communities. Whether you own a local thriving business, organize a non-profit that helps your community, or have a great idea or product; a customized website or software product can help you expand your brand or mission. Let everybody know about the great contribution you're giving to the world.</p>
+		<p>We want our work to have a positive impact in communities. Whether you own a local thriving business, organize a non-profit that helps your community, or have a great idea or product; a customized website or software product can help you expand your mission. Let everybody know about the great contribution you're giving to the world.</p>
 		
 	</div>
 	<div class="container-fluid text-center">
