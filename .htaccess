@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^wevation.net$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.wevation.net$
+RewriteCond %{REQUEST_URI} !public_html/
+RewriteRule (.*) /public_html/$1 [L]
