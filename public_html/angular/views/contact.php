@@ -55,7 +55,7 @@
 			</div>
 
 			<!--this is for spam prevention google recaptcha key-->
-			<div class="g-recaptcha" data-sitekey="6LfgoykTAAAAAOAw8bjRU5E-xwNR-GK1H5E4vHWQ"></div>
+			<div class="g-recaptcha" data-sitekey="6LfP-ikTAAAAAKeuVvEm3ni7CzQBelEmghjWj7up"></div>
 
 			<button class="btn btn-lg btn-primary" type="submit"> Send</button>
 			<button class="btn btn-lg btn-default" type="reset">Clear</button>
