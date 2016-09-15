@@ -48,10 +48,3 @@ app.controller("AngularFormController", ["$http", "$scope", function($http, $sco
 	};
 }]);
 
-
-
-
-
-
-
-
