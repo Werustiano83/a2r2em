@@ -16,7 +16,7 @@ app.config(function($routeProvider, $locationProvider) {
 
 		// route for the contact page
 		.when('/contact', {
-			controller: 'contactController',
+			controller: 'contactFormController',
 			templateUrl: 'angular/views/contact.php'
 		})
 
