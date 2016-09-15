@@ -31,7 +31,7 @@ app.controller("contactFormController", ["$http", "$scope", function($http, $sco
 	 **/
 	$scope.submit = function(formData, validated) {
 		if(validated === true){
-			$http.post("../../php/mailer.php", formData)
+			$http.post("php/mailer.php", formData)
 				.then(function(reply) {
 					$scope.alerts[0] = {
 						type: "danger",
