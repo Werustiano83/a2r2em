@@ -1,4 +1,7 @@
-app.controller("AngularFormController", ["$http", "$scope", function($http, $scope) {
+// code extracted from David Mancini github
+//@davidmancini
+
+app.controller("CoontactFormController", ["$http", "$scope", function($http, $scope) {
 	/**
 	 * State variable to store alerts generated from submit event
 	 * @type {Array}
