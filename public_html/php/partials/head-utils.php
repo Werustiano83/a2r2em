@@ -42,7 +42,6 @@
 		<script src="angular/controllers/contactform-controller.js"></script>
 		<script src="angular/controllers/education-controller.js"></script>
 		<script src="angular/controllers/solutions-controller.js"></script>
-		<script src="angular/controllers/contactform-controller.js"></script>
 		
 		
 		<title>wev-a-tion</title>

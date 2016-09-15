@@ -12,13 +12,13 @@ app.controller("contactFormController", ["$http", "$scope", function($http, $sco
 	 * State variable that keeps track of data entered
 	 * @type {Object}
 	 **/
-	$scope.formData = {name:null, email:null, subject: null, message:null};
+	$scope.formData = {name:null, email:null, subject:null, message:null};
 
 	/**
 	 * Method to reset form data when submit and cancel buttons are pressed
 	 **/
 	$scope.reset = function() {
-		$scope.formData = {name:null, email:null, subject: null, message:null};
+		$scope.formData = {name:null, email:null, subject:null, message:null};
 		$scope.quoteForm.$setUntouched();
 		$scope.quoteForm.$setPristine();
 	};

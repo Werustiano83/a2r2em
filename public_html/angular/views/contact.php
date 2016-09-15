@@ -1,11 +1,11 @@
 <!-- contact form based on @deepdivedylan code-->
 <div class="container-fluid">
 	<h3>Contact Us!</h3>
-	<p> No project is too small to make a positive impact in the world or too big to be accomplished!! Have a
-		conversation with us!!</p>
+	<p> No project is too small to make a positive impact in the world or too big to be accomplished!!
+		Have a conversation with us!!</p>
 
 	<div class="col-md-8 col-md-offset-2">
-		<form action="php/mailer.php" name="contactForm" id="contactForm" class="form-horizontal" ng-controller="ContactFormController"
+		<form action="php/mailer.php" name="contactForm" id="contactForm" class="form-horizontal" ng-controller="contactFormController"
 				ng-submit="submit(formData, contactForm.$valid);" novalidate>
 			<div class="form-group">
 				<label for="name">Name</label>
