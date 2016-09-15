@@ -1,45 +1,57 @@
-app.controller("ContactFormController", ["$scope", function($scope) {
+app.controller("AngularFormController", ["$http", "$scope", function($http, $scope) {
 	/**
-	 * state variable to store the alerts generated from the submit event
+	 * State variable to store alerts generated from submit event
 	 * @type {Array}
 	 **/
 	$scope.alerts = [];
 
 	/**
-	 * state variable to keep track of the data entered into the form fields
+	 * State variable that keeps track of data entered
 	 * @type {Object}
 	 **/
-	$scope.formData = {"name": null, "email": null, "subject": null, "message": null};
-
+	$scope.formData = {name:null, email:null, subject: null, message:null};
 
 	/**
-	 * method to reset form data when the submit and cancel buttons are pressed
+	 * Method to reset form data when submit and cancel buttons are pressed
 	 **/
 	$scope.reset = function() {
-		$scope.formData = {name: null, email: null, subject: null, message: null};
-		$scope.contactForm.$setUntouched();
-		$scope.contactForm.$setPristine();
+		$scope.formData = {name:null, email:null, subject: null, message:null};
+		$scope.quoteForm.$setUntouched();
+		$scope.quoteForm.$setPristine();
 	};
 
 	/**
-	 * method to process the action from the submit button
+	 * Method to process action from submit button
 	 *
 	 * @param formData object containing submitted form data
-	 * @param validated true if passed validation, false if not
+	 * @param validated true if pressed validation, false if not
 	 **/
 	$scope.submit = function(formData, validated) {
-		if(validated === true) {
-			$scope.alerts[0] = {
-				type: "success",
-				msg: "Thank you! We'll contact you ASAP"
-			};
+		if(validated === true){
+			$http.post("../../php/mailer.php", formData)
+				.then(function(reply) {
+					$scope.alerts[0] = {
+						type: "danger",
+						msg: reply.data.message
+					};
+					if(reply.data.status === 200) {
+						$scope.alerts[0].type = "Your message has been sent successfully";
+					}
+				});
 		} else {
 			$scope.alerts[0] = {
 				type: "danger",
-				msg: "Make sure you enter information before clicking submit!"
+				msg: "Please review your information and try again."
 			};
 		}
 		$scope.reset();
 	};
 }]);
+
+
+
+
+
+
+
 
